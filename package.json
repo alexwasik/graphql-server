@@ -1,0 +1,28 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "description": "gql express server",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Wasik",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.13",
+    "@graphql-tools/utils": "^9.1.4",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
